@@ -62,16 +62,21 @@ Inflation data (represented by the monthly **Consumer Price Index** or **CPI**) 
 
 ![Volume Chart](https://user-images.githubusercontent.com/114312864/212121237-3a7d852a-026d-414d-8617-e15f9c929fa0.jpg)
 
+> Finding 1: 
 ### b. Cumulative Return
 ![Cumulative Return](https://user-images.githubusercontent.com/114312864/212122195-d9c950fb-c57e-456d-9ab2-3a01ab22cf29.jpg)
 
+> Finding 2:
 ### c. Assets versus Inflation
 ![Asset vs CPI](https://user-images.githubusercontent.com/114312864/212123343-5c960fa5-6fd3-4312-87d1-fb190eef1202.jpg)
 
+> Finding 3:
 ### d. Assets Risk based on Daily Returns
 ![Risk based on Daily Returns](https://user-images.githubusercontent.com/114312864/212123835-79b17034-a4e7-4edd-85cd-cc0e875832be.jpg)
 
+> Finding 4:
 ### e. Assets' Sharpe Ratio
 ![Sharpe Ratio](https://user-images.githubusercontent.com/114312864/212124345-b70d9495-ed40-4da6-810b-760cb5d6c86e.jpg)
 
+> Finding 5:
 ## 4. Portfolio Optimization
