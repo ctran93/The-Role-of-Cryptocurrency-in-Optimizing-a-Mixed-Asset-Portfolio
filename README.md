@@ -7,7 +7,6 @@ This section is just for financial reporting and analyzing only. Back-end code i
 2. Data Import
 3. Financial Analysis
 4. Portfolio Optimization
-5. Conclusions
 
 ## I. Executive Summary
 On the last trading day of 2022 (December 30th), the Wall Street Journal claimed the year of 2022 as **"[one of the worst years for markets in recent history](https://www.wsj.com/articles/global-stocks-markets-dow-update-12-30-2022-11672403899)"**. Not only bonds but also risky assets like stocks and cryptocurrencies faced extreme crashes in price. Especially, the most popular cryptocurrency - **Bitcoin** - finished 2022 with a price of only around 17,000 USD - a significant drop from its all-time high of over 65,000 USD in November 2021. Yet, before the "Crypto Winter" came, Bitcoin and other cryptocurrencies had had a meteoric rise during the pandemic before reaching their all-time high in late 2021. This leads to the fact that even currently suffering from a great discount, a huge number of long-term cryptocurrency holders still outperformed the market. Given this information, the question here is **whether or not an allocation to Bitcoin would improve the overall performance of a traditional portfolio which includes a set of various securities**.  
@@ -151,3 +150,68 @@ On the other hand, Bitcoin might not be a great investment during high inflation
 The above box plot shows that Bitcoin had the largest interquartile range with more positive outliners, corresponding with the highest daily expected return of this asset mentioned previously. AAPL and KO, according to this box plot, are considered safe investments as having the smallest spreads. It is also noticeable that even having a small interquartile range, OXY seems to be a risky investment with the largest range. OXY return could decrease by more than 50%, while positively, it could also reach a positive return of more than 30% in just a day. 
 
 #### b. Assets' Risk based on Sharpe Ratio
+
+Sharpe Ratio is a measure to compare the return of an investment with its risk. 
+Sharpe Ratio is calculated by the following calculation:
+
+**Sharpe Ratio = $\frac{R - R_f}{\sigma}$** in which 
+* R: Return of Asset or Portfolio
+* $R_f$: Risk-free rate
+* $\sigma$: Standard Deviation of Asset or Portfolio
+
+The higher the Sharpe Ratio, the more attractive the risk-adjusted return. 
+
+In order to find the Sharpe Ratio of each individual asset, the Risk-free rate is set at 0. 
+
+![Sharpe Ratio](https://user-images.githubusercontent.com/114312864/212330918-711d2d26-ac1f-4eee-9a22-a2e7fc126ad9.jpg)
+
+#### Finding 6:
+Given the highest Sharpe Ratios of 0.894, 0.785, and 0.67, Bitcoin, AAPL, and TSLA are considered attractive investments for the portfolio. These three assets seem to take significant allocation in the optimal portfolio. 
+
+On the other hand, with the lowest Sharpe Ratio of 0.195, F might not a such an attractive asset to include in the overall portfolio.
+
+## IV. Portfolio Optimization 
+
+### 1. Risk-free Rate 
+For the sake of simplicity, the annual Risk-free rate is set at 0. However, for other considerations, the risk-free rate might be set differently, for example, equal to the One-year Treasury Bill Rate of the United States Government. 
+
+### 2. Portfolio Optimization
+
+#### a. Monte Carlo Simulation 
+The Monte Carlo simulation in this project will calculate the annualized expected return and standard deviation of portfolios with random weights. The number of trials in the simulation is set at 10,000. These trials, later, will be used to find the Efficient Frontier.  
+
+#### b. Efficient Frontier
+The Efficient Frontier is all the scatter points, each representing a given portfolio's expected return and its corresponding minimum variance. Any portfolio located on the Efficient Frontier would have a higher expected return than any other portfolio having the same variance. Similarly, any portfolio located on the Efficient Frontier would have a lower risk (lower variance) than any other portfolio having the same expected return. Investors, thus, should only consider portfolios laying on the Efficient Frontier.
+
+The Efficient Frontier is limited by the minimum and maximum expected returns. While the minimum expected return is determined by the lowest expected return of all securities, the maximum expected return is determined by the highest one. No portfolio has an expected return beyond this bound.
+
+![Eff_Frt](https://user-images.githubusercontent.com/114312864/212340506-021fc1e9-5bef-4f7b-b361-07890b78950a.png)
+
+#### c. Optimal Portfolios 
+The Optimal Portfolio is defined as the portfolio having the highest possible Sharpe Ratio. 
+
+##### Optimal Portfolio Allocation and Statistics with Bitcoin
+
+Weights: AAPL: 0.41041
+         BTC-USD: 0.30714
+         KO: 0.10849
+         TSLA: 0.17396
+Expected annual return: 31.6%
+Annual volatility: 27.6%
+Sharpe Ratio: 1.07
+![With Bitcoin](https://user-images.githubusercontent.com/114312864/212344196-cec100fb-bcfd-42ec-9091-56d6c156266f.jpg)
+
+##### Optimal Portfolio Allocation and Statistics without Bitcoin
+
+Weights: AAPL: 0.58045
+         KO: 0.18844
+         TSLA: 0.23111
+Expected annual return: 29.7%
+Annual volatility: 28.1%
+Sharpe Ratio: 0.99
+
+![Without Bitcoin](https://user-images.githubusercontent.com/114312864/212346132-659e1b37-3dbe-40b1-8891-d3abb15cecfd.jpg)
+
+#### Overal Conclusion:
+With a higher annual expected return (31.6% compared to 29.7%) and lower standard deviation (27.6% compared to 28.1%), the inclusion of Bitcoin will improve the overall performance of the portfolio, despite the sharp decrease in the price of this asset in 2022. 
+
