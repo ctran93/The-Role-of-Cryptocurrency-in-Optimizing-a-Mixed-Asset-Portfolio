@@ -135,3 +135,12 @@ According to the Price and Volume Charts, the outstanding increase in the price 
 
 #### a. Correlation to Inflation Heatmap
 ![Asset vs CPI](https://user-images.githubusercontent.com/114312864/212319911-7cc033d9-0ecf-4f7a-bc95-4216ec23a6fd.jpg)
+
+#### Finding 4:
+Although having diverse correlations to Inflation (represented by the Consumer Price Index, or CPI), observed assets all have negligible correlation to Inflation with the size of correlation from -0.3 to 0.3. 
+
+With correlations from -0.1 to 0.1, Apple Inc. (AAPL), Ford Motor Company (F), Halliburton Co. (HAL), Coca-Cola (KO), Qualcomm (QCOM), and Tesla Inc. (TSLA) stocks might be great investments during high inflation period as numbers suggest that there might be no consistent relationship between price changes of these assets and inflation since 2016. 
+
+On the other hand, Bitcoin might not be a great investment during high inflation time but deflation as the negative correlation of -0.15 suggests that Bitcoin price tends to decrease during increasing inflation period. In contrast, a positive correlation of 0.16 between Occidental Petroleum stock (OXY) and CPI indicates that this stock and inflation tend to move in the same direction. This conclusion, in fact, is reasonable as both energy companies like Occidental Petroleum and inflation are significantly positively influenced by energy price. 
+
+### 4. Individual Assets' Risk
