@@ -1,6 +1,6 @@
 # The Role of Cryptocurrency in Optimizing a Mixed-Asset Portfolio
 
-This section is just for financial reporting and analyzing only. Back-end code in Python could be found here.
+This section is just for financial reporting and analyzing only. Back-end code in Python could be found [here](https://github.com/ctran93/The-Role-of-Cryptocurrency-in-Optimizing-a-Mixed-Asset-Portfolio/blob/main/The%20Role%20of%20Cryptocurrency%20in%20Optimizing%20a%20Mixed-Asset%20Portfolio.ipynb).
 
 ## Table of Contents 
 1. Executive Summary 
