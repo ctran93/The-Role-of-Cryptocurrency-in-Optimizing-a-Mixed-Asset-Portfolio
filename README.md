@@ -144,3 +144,10 @@ With correlations from -0.1 to 0.1, Apple Inc. (AAPL), Ford Motor Company (F), H
 On the other hand, Bitcoin might not be a great investment during high inflation time but deflation as the negative correlation of -0.15 suggests that Bitcoin price tends to decrease during increasing inflation period. In contrast, a positive correlation of 0.16 between Occidental Petroleum stock (OXY) and CPI indicates that this stock and inflation tend to move in the same direction. This conclusion, in fact, is reasonable as both energy companies like Occidental Petroleum and inflation are significantly positively influenced by energy price. 
 
 ### 4. Individual Assets' Risk
+#### a. Assets' Risk based on Daily Returns
+![Risk based on Daily Returns](https://user-images.githubusercontent.com/114312864/212326925-92d5777c-fbe5-4a14-918b-6a02b1c46a76.jpg)
+
+#### Finding 5: 
+The above box plot shows that Bitcoin had the largest interquartile range with more positive outliners, corresponding with the highest daily expected return of this asset mentioned previously. AAPL and KO, according to this box plot, are considered safe investments as having the smallest spreads. It is also noticeable that even having a small interquartile range, OXY seems to be a risky investment with the largest range. OXY return could decrease by more than 50%, while positively, it could also reach a positive return of more than 30% in just a day. 
+
+#### b. Assets' Risk based on Sharpe Ratio
