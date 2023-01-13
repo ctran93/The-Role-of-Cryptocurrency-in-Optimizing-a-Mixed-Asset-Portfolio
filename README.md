@@ -15,8 +15,7 @@ On the last trading day of 2022 (December 30th), the Wall Street Journal claimed
 In order to answer this question, this report will collect and analyze the performances of Bitcoin along with seven different securities from the start of 2016 to the end of 2022. By doing so, this report will address several questions, including:
 * How does the performance of a cryptocurrency like Bitcoin compare to other securities in terms of risks and returns?
 * Does the allocation of Bitcoin help improve the overall performance of the portfolio? 
-* Could Bitcoin help in hedging high inflation?![Price Chart](https://user-images.githubusercontent.com/114312864/212313942-d2a970c8-94c0-482f-91f2-8c98b55788d4.jpg)
-
+* Could Bitcoin help in hedging high inflation?
 * Given the high risk of Bitcoin, is it possible to lower risk while improving the overall returns through portfolio diversification?
 
 While the first three questions will be answered with basic financial analyses, the fourth will be addressed by applying the Modern Portfolio Theory (MPT) or Mean-Variance Analysis, a mathematical method for selecting a variety of investments in order to optimize the overall returns in a period of time for a given level of risk. 
@@ -114,6 +113,25 @@ On the other hand, a positive high correlation (approaching to 1), such as the c
 #### b. Volume Chart
 ![Volume Chart](https://user-images.githubusercontent.com/114312864/212314245-76726e46-2065-4752-ae7c-3be1e75a19f0.jpg)
 
+### 3. Culmulative Return
+#### a. Cumulative Return Chart 
+![Cumulative Return](https://user-images.githubusercontent.com/114312864/212315958-f0d12102-866e-4866-92c0-c7610851b852.jpg)
+
+#### b. Value at the end of 2022 (start with $100 on January 4, 2016)
+| Date | AAPL | BTC-USD | F | HAL | KO | OXY | QCOM | TSLA |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| **2022-12-30** | 538.871467 | 3833.509772 | 113.45628 | 129.374193 |  187.704681 | 118.901178 | 271.605507 | 827.044447 |
+
 #### Finding 3: 
+The Price Chart illustrates the performances of each individual assets over the observation period. All of eight assets ended 2022 with positive capital gains. Yet Bitcoin still outperformed the market.  According to the Cumulative Return Chart and Table, an investment of $100 in Bitcoin at the beginning of 2016 could result in more than $3800 at the end of 2022, corresponding to 3700% in return after 7 years. Apple Inc. and Tesla Inc. stocks also brought significant returns of 400% and 700%, respectively. 
 
+According to the Price and Volume Charts, the outstanding increase in the price of Bitcoin might correspond with the rise of Bitcoin's volume over the observation period. While other assets' volume have been relatively stable throughout the period, Bitcoin observed a dramatic boom in popularity during 2017. The price of Bitcoin also had rised sharply since 2017. After reaching it all time high in 2021, Bitcoin dropped significantly in terms of both price and volume. 
 
+### 4. Correlation to Inflation
+#### a. Correlation to Inflation Table
+|  | AAPL | BTC-USD | F | HAL | KO | OXY | QCOM | TSLA |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| **CPI** | -0.007124 | -0.150121 | 0.035459 | 0.059927 | 0.057429 |  0.159703 | -0.079198 | -0.020098 |
+
+#### a. Correlation to Inflation Heatmap
+![Asset vs CPI](https://user-images.githubusercontent.com/114312864/212319911-7cc033d9-0ecf-4f7a-bc95-4216ec23a6fd.jpg)
