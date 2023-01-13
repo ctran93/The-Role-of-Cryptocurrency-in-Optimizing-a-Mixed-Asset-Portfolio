@@ -1,6 +1,6 @@
 # The Role of Cryptocurrency in Optimizing a Mixed-Asset Portfolio
 
-This project is built and developed on my previous one [Modern Portfolio Optimization](https://github.com/ctran93/Modern-Portfolio-Optimization-R). 
+This project is built and developed on my previous one [Modern Portfolio Optimization](https://github.com/ctran93/Modern-Portfolio-Optimization-R).
 
 This section is just for financial reporting and analyzing only. Back-end code in Python could be found [here](https://github.com/ctran93/The-Role-of-Cryptocurrency-in-Optimizing-a-Mixed-Asset-Portfolio/blob/main/The%20Role%20of%20Cryptocurrency%20in%20Optimizing%20a%20Mixed-Asset%20Portfolio.ipynb).
 
