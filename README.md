@@ -15,7 +15,8 @@ On the last trading day of 2022 (December 30th), the Wall Street Journal claimed
 In order to answer this question, this report will collect and analyze the performances of Bitcoin along with seven different securities from the start of 2016 to the end of 2022. By doing so, this report will address several questions, including:
 * How does the performance of a cryptocurrency like Bitcoin compare to other securities in terms of risks and returns?
 * Does the allocation of Bitcoin help improve the overall performance of the portfolio? 
-* Could Bitcoin help in hedging high inflation?
+* Could Bitcoin help in hedging high inflation?![Price Chart](https://user-images.githubusercontent.com/114312864/212313942-d2a970c8-94c0-482f-91f2-8c98b55788d4.jpg)
+
 * Given the high risk of Bitcoin, is it possible to lower risk while improving the overall returns through portfolio diversification?
 
 While the first three questions will be answered with basic financial analyses, the fourth will be addressed by applying the Modern Portfolio Theory (MPT) or Mean-Variance Analysis, a mathematical method for selecting a variety of investments in order to optimize the overall returns in a period of time for a given level of risk. 
@@ -105,4 +106,14 @@ No comment is made at this point on other assets (F, HAL, OXY, and QCOM) as they
 The heatmap of Correlation among Assets suggests that Bitcoin has negligible correlations to other assets in the portfolio. All of the correlation related to Bitcoin are less than 0.2 with the lowest ones are 0.076 and 0.086 belonging to Bitcoin's correlations to Coca-Cola Co. stock (KO) and Occidental Petroleum stock (OXY), respectively.  A correlation of approximately 0 means there is no clear relationship between the two assets; and it could be concluded that the two assets' movements are independent. 
 
 On the other hand, a positive high correlation (approaching to 1), such as the correlation of 0.741 between Halliburton Co. stock (HAL) and Occidental Petroleum stock (OXY), suggests that the two assets are likely to move in similar directions. They will increase or decrease together.
+
+### 2. Historical Price and Volume
+#### a. Price Chart
+![Price Chart](https://user-images.githubusercontent.com/114312864/212313974-13fdc881-98b5-4296-9924-241b1d8e0da0.jpg)
+
+#### b. Volume Chart
+![Volume Chart](https://user-images.githubusercontent.com/114312864/212314245-76726e46-2065-4752-ae7c-3be1e75a19f0.jpg)
+
+#### Finding 3: 
+
 
