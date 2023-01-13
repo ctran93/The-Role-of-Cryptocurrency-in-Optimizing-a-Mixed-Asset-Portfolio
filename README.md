@@ -1,12 +1,15 @@
 # The Role of Cryptocurrency in Optimizing a Mixed-Asset Portfolio
 
+This project is built and developed on my previous one [Modern Portfolio Optimization](https://github.com/ctran93/Modern-Portfolio-Optimization-R). 
+
 This section is just for financial reporting and analyzing only. Back-end code in Python could be found [here](https://github.com/ctran93/The-Role-of-Cryptocurrency-in-Optimizing-a-Mixed-Asset-Portfolio/blob/main/The%20Role%20of%20Cryptocurrency%20in%20Optimizing%20a%20Mixed-Asset%20Portfolio.ipynb).
 
 ## Table of Contents 
-1. Executive Summary 
-2. Data Import
-3. Financial Analysis
-4. Portfolio Optimization
+I. Executive Summary 
+II. Data Import
+III. Financial Analysis
+IV. Portfolio Optimization
+V. Code Running Video
 
 ## I. Executive Summary
 On the last trading day of 2022 (December 30th), the Wall Street Journal claimed the year of 2022 as **"[one of the worst years for markets in recent history](https://www.wsj.com/articles/global-stocks-markets-dow-update-12-30-2022-11672403899)"**. Not only bonds but also risky assets like stocks and cryptocurrencies faced extreme crashes in price. Especially, the most popular cryptocurrency - **Bitcoin** - finished 2022 with a price of only around 17,000 USD - a significant drop from its all-time high of over 65,000 USD in November 2021. Yet, before the "Crypto Winter" came, Bitcoin and other cryptocurrencies had had a meteoric rise during the pandemic before reaching their all-time high in late 2021. This leads to the fact that even currently suffering from a great discount, a huge number of long-term cryptocurrency holders still outperformed the market. Given this information, the question here is **whether or not an allocation to Bitcoin would improve the overall performance of a traditional portfolio which includes a set of various securities**.  
@@ -215,3 +218,6 @@ Sharpe Ratio: 0.99
 #### Overal Conclusion:
 With a higher annual expected return (31.6% compared to 29.7%) and lower standard deviation (27.6% compared to 28.1%), the inclusion of Bitcoin will improve the overall performance of the portfolio, despite the sharp decrease in the price of this asset in 2022. 
 
+## V. Code Running Video
+
+https://user-images.githubusercontent.com/114312864/212356254-3ce37e70-a3bf-4db4-866b-e860a94b1fba.mp4
