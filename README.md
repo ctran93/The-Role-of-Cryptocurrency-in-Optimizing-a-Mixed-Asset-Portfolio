@@ -6,9 +6,13 @@ This section is just for financial reporting and analyzing only. Back-end code i
 
 ## Table of Contents 
 I. Executive Summary 
+
 II. Data Import
+
 III. Financial Analysis
+
 IV. Portfolio Optimization
+
 V. Code Running Video
 
 ## I. Executive Summary
