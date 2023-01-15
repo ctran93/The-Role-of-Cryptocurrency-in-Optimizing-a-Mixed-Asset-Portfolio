@@ -14,7 +14,9 @@ This section is just for financial reporting and analyzing only. Back-end code i
 
 [III Financial Analysis](#iii-financial-analysis)
 * [1 Statistical Data](#1-statistical-data)
-- [a Return](#a-return)
+         + [a Return](#a-return)
+         + [b Risk (Standard Deviation)](#b-risk-(-standard-deviation-))
+
 [IV Portfolio Optimization](#iv-portfolio-optimization)
 
 [V Code Running Video](#v-code-running-video)
@@ -105,8 +107,6 @@ On the other hand, while having the **lowest rate of risk** with an annualized s
 No comment is made at this point on other assets (F, HAL, OXY, and QCOM) as they have not given any significant statistical data on both return and risk. 
 
 #### c Correlation
-
-**Correlation Heatmap**
 
 ![Correlation Heatmap](https://user-images.githubusercontent.com/114312864/212310699-25df85db-8d5e-489c-bc6d-639a72446275.jpg)
 
