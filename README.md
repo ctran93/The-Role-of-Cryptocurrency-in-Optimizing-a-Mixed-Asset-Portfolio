@@ -22,13 +22,27 @@ This section is just for financial reporting and analyzing only. Back-end code i
   + [a Price Chart](#a-price-chart)
   + [b Volume Chart](#b-volume-chart)
 
-* [3 Cummulative Return](#3-cummulative-return)
-  + [a Cummulative Return Chart](#a-cummulative-return-chart)
-  + [b Value at the end of 2022](#b-value-at-the-end-of-2022-(start-with-$100-on-January-4,-2016))
+* [3 Cumulative Return](#3-cumulative-return)
+  + [a Cumulative Return Chart](#a-cumulative-return-chart)
+  + [b Value at the end of 2022](#b-value-at-the-end-of-2022)
 
-[IV Portfolio Optimization](#iv-portfolio-optimization)
+* [4 Correlation to Inflation](#4-correlation-to-inflation)
+  + [a Correlation to Inflation Table](#a-correlation-to-inflation-table)
+  + [b Correlation to Inflation Heatmap](#b-correlation-to-inflation-heatmap)
 
-[V Code Running Video](#v-code-running-video)
+* [5 Individual Assets' Risk](5-individual-assets'-risk)
+  + [a Assets' Risk based on Daily Returns](#a-assets'-risk-based-on-daily-returns)
+  + [b Assets' Risk based on Sharpe Ratio](#b-assets'-risk-based-on-sharpe-ratio)
+
+[**IV Portfolio Optimization**](#iv-portfolio-optimization)
+* [1 Risk-free Rate](#1-risk-free-rate)
+
+* [2 Portfolio Optimization](#2-portfolio-optimization)
+  + [a Monte Carlo Simulation](#a-monte-carlo-simulation)
+  + [b Efficient Frontier](#b-efficient-frontier)
+  + [c Optimal Portfolios](#c-optimal-portfolios)
+
+[**V Code Running Video**](#v-code-running-video)
 
 ## I Executive Summary
 On the last trading day of 2022 (December 30th), the Wall Street Journal claimed the year of 2022 as **"[one of the worst years for markets in recent history](https://www.wsj.com/articles/global-stocks-markets-dow-update-12-30-2022-11672403899)"**. Not only bonds but also risky assets like stocks and cryptocurrencies faced extreme crashes in price. Especially, the most popular cryptocurrency - **Bitcoin** - finished 2022 with a price of only around 17,000 USD - a significant drop from its all-time high of over 65,000 USD in November 2021. Yet, before the "Crypto Winter" came, Bitcoin and other cryptocurrencies had had a meteoric rise during the pandemic before reaching their all-time high in late 2021. This leads to the fact that even currently suffering from a great discount, a huge number of long-term cryptocurrency holders still outperformed the market. Given this information, the question here is **whether or not an allocation to Bitcoin would improve the overall performance of a traditional portfolio which includes a set of various securities**.  
@@ -132,11 +146,14 @@ On the other hand, a positive high correlation (approaching to 1), such as the c
 #### b Volume Chart
 ![Volume Chart](https://user-images.githubusercontent.com/114312864/212314245-76726e46-2065-4752-ae7c-3be1e75a19f0.jpg)
 
-### 3 Culmulative Return
+### 3 Cumulative Return
 #### a Cumulative Return Chart 
+
+**Start with $100 on January 4, 2016)**
+
 ![Cumulative Return](https://user-images.githubusercontent.com/114312864/212315958-f0d12102-866e-4866-92c0-c7610851b852.jpg)
 
-#### b Value at the end of 2022 (start with $100 on January 4, 2016)
+#### b Value at the end of 2022
 | Date | AAPL | BTC-USD | F | HAL | KO | OXY | QCOM | TSLA |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | **2022-12-30** | 538.871467 | 3833.509772 | 113.45628 | 129.374193 |  187.704681 | 118.901178 | 271.605507 | 827.044447 |
@@ -152,7 +169,7 @@ According to the Price and Volume Charts, the outstanding increase in the price 
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | **CPI** | -0.007124 | -0.150121 | 0.035459 | 0.059927 | 0.057429 |  0.159703 | -0.079198 | -0.020098 |
 
-#### a Correlation to Inflation Heatmap
+#### b Correlation to Inflation Heatmap
 ![Asset vs CPI](https://user-images.githubusercontent.com/114312864/212319911-7cc033d9-0ecf-4f7a-bc95-4216ec23a6fd.jpg)
 
 #### Finding 4:
@@ -162,7 +179,7 @@ With correlations from -0.1 to 0.1, Apple Inc. (AAPL), Ford Motor Company (F), H
 
 On the other hand, Bitcoin might not be a great investment during high inflation time but deflation as the negative correlation of -0.15 suggests that Bitcoin price tends to decrease during increasing inflation period. In contrast, a positive correlation of 0.16 between Occidental Petroleum stock (OXY) and CPI indicates that this stock and inflation tend to move in the same direction. This conclusion, in fact, is reasonable as both energy companies like Occidental Petroleum and inflation are significantly positively influenced by energy price. 
 
-### 4 Individual Assets' Risk
+### 5 Individual Assets' Risk
 #### a Assets' Risk based on Daily Returns
 ![Risk based on Daily Returns](https://user-images.githubusercontent.com/114312864/212326925-92d5777c-fbe5-4a14-918b-6a02b1c46a76.jpg)
 
