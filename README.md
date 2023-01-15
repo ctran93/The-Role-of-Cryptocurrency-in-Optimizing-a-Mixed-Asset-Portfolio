@@ -5,17 +5,17 @@ This project is built and developed on my previous one [Modern Portfolio Optimiz
 This section is just for financial reporting and analyzing only. Back-end code in Python could be found [here](https://github.com/ctran93/The-Role-of-Cryptocurrency-in-Optimizing-a-Mixed-Asset-Portfolio/blob/main/The%20Role%20of%20Cryptocurrency%20in%20Optimizing%20a%20Mixed-Asset%20Portfolio.ipynb).
 
 ## Table of Contents 
-[I. Executive Summary](#i.-executive-summary) 
+[I Executive Summary](#i-executive-summary) 
 
-[II. Data Import](#ii.-data-import)
+[II Data Import](#ii-data-import)
 
-[III. Financial Analysis](#iii.-financial-analysis)
+[III Financial Analysis](#iii-financial-analysis)
 
-[IV. Portfolio Optimization](#iv.-portfolio-optimization)
+[IV Portfolio Optimization](#iv-portfolio-optimization)
 
-[V. Code Running Video](#v.-code-running-video)
+[V Code Running Video](#v-code-running-video)
 
-## I. Executive Summary
+## I Executive Summary
 On the last trading day of 2022 (December 30th), the Wall Street Journal claimed the year of 2022 as **"[one of the worst years for markets in recent history](https://www.wsj.com/articles/global-stocks-markets-dow-update-12-30-2022-11672403899)"**. Not only bonds but also risky assets like stocks and cryptocurrencies faced extreme crashes in price. Especially, the most popular cryptocurrency - **Bitcoin** - finished 2022 with a price of only around 17,000 USD - a significant drop from its all-time high of over 65,000 USD in November 2021. Yet, before the "Crypto Winter" came, Bitcoin and other cryptocurrencies had had a meteoric rise during the pandemic before reaching their all-time high in late 2021. This leads to the fact that even currently suffering from a great discount, a huge number of long-term cryptocurrency holders still outperformed the market. Given this information, the question here is **whether or not an allocation to Bitcoin would improve the overall performance of a traditional portfolio which includes a set of various securities**.  
 
 In order to answer this question, this report will collect and analyze the performances of Bitcoin along with seven different securities from the start of 2016 to the end of 2022. By doing so, this report will address several questions, including:
@@ -30,9 +30,9 @@ Conclusions could be found at the end of each sections, as well as at the end of
 
 **Caution:** This report is built on historical data collected in a short period of time (2016-2022). It might be considered an approach to address the above questions but absolutely not the only approach. Thus, it would not be extrapolated into the future, and the future trend might be significantly different. 
 
-## II. Data Import 
+## II Data Import 
 
-### 1. Stocks and Bitcoin Data
+### 1 Stocks and Bitcoin Data
 Stocks and Bitcoin Data are directly downloaded from **[Yahoo Finance](https://finance.yahoo.com/)** through Python module **yfinance**.
 
 Data collected include: 
@@ -46,7 +46,7 @@ Data collected include:
 
 The data collected consists of daily recorded data for AAPL, F, HAL, KO, OXY, QCOM, and TSLA (no missing data for every trading day from Jan 04, 2016 to December 30, 2022), along with Bitcoin (BTC-USD) data (no missing data for every day (include weekend) from Jan 01, 2016 to December 31, 2022).
 
-### 2. Inflation Data
+### 2 Inflation Data
 Inflation data (represented by the monthly **Consumer Price Index** or **CPI**) is downloaded from the **United States Bureau of Labor Statistics** through Python module **bls**. 
 
 **Consumer Price Index** as of December 2022: 
@@ -60,9 +60,9 @@ Inflation data (represented by the monthly **Consumer Price Index** or **CPI**) 
 | **2021** | 261.582 | 263.014 | 264.877 | 267.054 | 269.195 | 271.696 | 273.003 | 273.567 | 274.310 | 276.589 | 277.948 | 278.802 |
 | **2022** | 281.148 | 283.716 | 287.504 | 289.109 | 292.296 | 296.311 | 296.276 | 296.171 | 296.808 | 298.012 | 297.711 | 296.797 |
 
-## III. Financial Analysis
-### 1. Statistical Data
-#### a. Return 
+## III Financial Analysis
+### 1 Statistical Data
+#### a Return 
 * **Expected Daily Return** 
 
 | Ticker | AAPL | BTC-USD | F | HAL | KO | OXY | QCOM | TSLA |
@@ -77,7 +77,7 @@ In order to find the annualied return, we multyply the expected daily return of 
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | **Annualized Return** | 0.198249 | 0.551352 | 0.060746 | 0.112852 |  0.075146 | 0.125939 | 0.148326 | 0.327684 |
 
-#### b. Risk (Standard Deviation)
+#### b Risk (Standard Deviation)
 * **Daily Return Standard Deviation** 
 
 | Ticker | AAPL | BTC-USD | F | HAL | KO | OXY | QCOM | TSLA |
@@ -100,7 +100,7 @@ On the other hand, while having the **lowest rate of risk** with an annualized s
 
 No comment is made at this point on other assets (F, HAL, OXY, and QCOM) as they have not given any significant statistical data on both return and risk. 
 
-#### c. Correlation
+#### c Correlation
 
 **Correlation Heatmap**
 
@@ -112,18 +112,18 @@ The heatmap of Correlation among Assets suggests that Bitcoin has negligible cor
 
 On the other hand, a positive high correlation (approaching to 1), such as the correlation of 0.741 between Halliburton Co. stock (HAL) and Occidental Petroleum stock (OXY), suggests that the two assets are likely to move in similar directions. They will increase or decrease together.
 
-### 2. Historical Price and Volume
+### 2 Historical Price and Volume
 #### a. Price Chart
 ![Price Chart](https://user-images.githubusercontent.com/114312864/212313974-13fdc881-98b5-4296-9924-241b1d8e0da0.jpg)
 
-#### b. Volume Chart
+#### b Volume Chart
 ![Volume Chart](https://user-images.githubusercontent.com/114312864/212314245-76726e46-2065-4752-ae7c-3be1e75a19f0.jpg)
 
-### 3. Culmulative Return
-#### a. Cumulative Return Chart 
+### 3 Culmulative Return
+#### a Cumulative Return Chart 
 ![Cumulative Return](https://user-images.githubusercontent.com/114312864/212315958-f0d12102-866e-4866-92c0-c7610851b852.jpg)
 
-#### b. Value at the end of 2022 (start with $100 on January 4, 2016)
+#### b Value at the end of 2022 (start with $100 on January 4, 2016)
 | Date | AAPL | BTC-USD | F | HAL | KO | OXY | QCOM | TSLA |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | **2022-12-30** | 538.871467 | 3833.509772 | 113.45628 | 129.374193 |  187.704681 | 118.901178 | 271.605507 | 827.044447 |
@@ -133,13 +133,13 @@ The Price Chart illustrates the performances of each individual assets over the 
 
 According to the Price and Volume Charts, the outstanding increase in the price of Bitcoin might correspond with the rise of Bitcoin's volume over the observation period. While other assets' volume have been relatively stable throughout the period, Bitcoin observed a dramatic boom in popularity during 2017. The price of Bitcoin also had rised sharply since 2017. After reaching it all time high in 2021, Bitcoin dropped significantly in terms of both price and volume. 
 
-### 4. Correlation to Inflation
-#### a. Correlation to Inflation Table
+### 4 Correlation to Inflation
+#### a Correlation to Inflation Table
 |  | AAPL | BTC-USD | F | HAL | KO | OXY | QCOM | TSLA |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | **CPI** | -0.007124 | -0.150121 | 0.035459 | 0.059927 | 0.057429 |  0.159703 | -0.079198 | -0.020098 |
 
-#### a. Correlation to Inflation Heatmap
+#### a Correlation to Inflation Heatmap
 ![Asset vs CPI](https://user-images.githubusercontent.com/114312864/212319911-7cc033d9-0ecf-4f7a-bc95-4216ec23a6fd.jpg)
 
 #### Finding 4:
@@ -149,14 +149,14 @@ With correlations from -0.1 to 0.1, Apple Inc. (AAPL), Ford Motor Company (F), H
 
 On the other hand, Bitcoin might not be a great investment during high inflation time but deflation as the negative correlation of -0.15 suggests that Bitcoin price tends to decrease during increasing inflation period. In contrast, a positive correlation of 0.16 between Occidental Petroleum stock (OXY) and CPI indicates that this stock and inflation tend to move in the same direction. This conclusion, in fact, is reasonable as both energy companies like Occidental Petroleum and inflation are significantly positively influenced by energy price. 
 
-### 4. Individual Assets' Risk
-#### a. Assets' Risk based on Daily Returns
+### 4 Individual Assets' Risk
+#### a Assets' Risk based on Daily Returns
 ![Risk based on Daily Returns](https://user-images.githubusercontent.com/114312864/212326925-92d5777c-fbe5-4a14-918b-6a02b1c46a76.jpg)
 
 #### Finding 5: 
 The above box plot shows that Bitcoin had the largest interquartile range with more positive outliners, corresponding with the highest daily expected return of this asset mentioned previously. AAPL and KO, according to this box plot, are considered safe investments as having the smallest spreads. It is also noticeable that even having a small interquartile range, OXY seems to be a risky investment with the largest range. OXY return could decrease by more than 50%, while positively, it could also reach a positive return of more than 30% in just a day. 
 
-#### b. Assets' Risk based on Sharpe Ratio
+#### b Assets' Risk based on Sharpe Ratio
 
 Sharpe Ratio is a measure to compare the return of an investment with its risk. 
 Sharpe Ratio is calculated by the following calculation:
@@ -177,24 +177,24 @@ Given the highest Sharpe Ratios of 0.894, 0.785, and 0.67, Bitcoin, AAPL, and TS
 
 On the other hand, with the lowest Sharpe Ratio of 0.195, F might not a such an attractive asset to include in the overall portfolio.
 
-## IV. Portfolio Optimization 
+## IV Portfolio Optimization 
 
-### 1. Risk-free Rate 
+### 1 Risk-free Rate 
 For the sake of simplicity, the annual Risk-free rate is set at 0. However, for other considerations, the risk-free rate might be set differently, for example, equal to the One-year Treasury Bill Rate of the United States Government. 
 
-### 2. Portfolio Optimization
+### 2 Portfolio Optimization
 
-#### a. Monte Carlo Simulation 
+#### a Monte Carlo Simulation 
 The Monte Carlo simulation in this project will calculate the annualized expected return and standard deviation of portfolios with random weights. The number of trials in the simulation is set at 10,000. These trials, later, will be used to find the Efficient Frontier.  
 
-#### b. Efficient Frontier
+#### b Efficient Frontier
 The Efficient Frontier is all the scatter points, each representing a given portfolio's expected return and its corresponding minimum variance. Any portfolio located on the Efficient Frontier would have a higher expected return than any other portfolio having the same variance. Similarly, any portfolio located on the Efficient Frontier would have a lower risk (lower variance) than any other portfolio having the same expected return. Investors, thus, should only consider portfolios laying on the Efficient Frontier.
 
 The Efficient Frontier is limited by the minimum and maximum expected returns. While the minimum expected return is determined by the lowest expected return of all securities, the maximum expected return is determined by the highest one. No portfolio has an expected return beyond this bound.
 
 ![Eff_Frt](https://user-images.githubusercontent.com/114312864/212340506-021fc1e9-5bef-4f7b-b361-07890b78950a.png)
 
-#### c. Optimal Portfolios 
+#### c Optimal Portfolios 
 The Optimal Portfolio is defined as the portfolio having the highest possible Sharpe Ratio. 
 
 ##### Optimal Portfolio Allocation and Statistics with Bitcoin
@@ -222,6 +222,6 @@ Sharpe Ratio: 0.99
 #### Overal Conclusion:
 With a higher annual expected return (31.6% compared to 29.7%) and lower standard deviation (27.6% compared to 28.1%), the inclusion of Bitcoin will improve the overall performance of the portfolio, despite the sharp decrease in the price of this asset in 2022. 
 
-## V. Code Running Video
+## V Code Running Video
 
 https://user-images.githubusercontent.com/114312864/212356254-3ce37e70-a3bf-4db4-866b-e860a94b1fba.mp4
