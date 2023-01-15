@@ -16,6 +16,13 @@ This section is just for financial reporting and analyzing only. Back-end code i
 * [1 Statistical Data](#1-statistical-data)
   + [a Return](#a-return)
   + [b Risk](#b-risk)
+  + [c Correlation](#c-correlation]
+
+* [2 Historical Price and Volume](#2-historical-price-and-volume)
+  + [a Price Chart](#a-price-chart)
+  + [b Volume Chart](#b-volume-chart)
+
+* [3 Cummulative Return](#3-cummulative-return)
 
 [IV Portfolio Optimization](#iv-portfolio-optimization)
 
@@ -117,7 +124,7 @@ The heatmap of Correlation among Assets suggests that Bitcoin has negligible cor
 On the other hand, a positive high correlation (approaching to 1), such as the correlation of 0.741 between Halliburton Co. stock (HAL) and Occidental Petroleum stock (OXY), suggests that the two assets are likely to move in similar directions. They will increase or decrease together.
 
 ### 2 Historical Price and Volume
-#### a. Price Chart
+#### a Price Chart
 ![Price Chart](https://user-images.githubusercontent.com/114312864/212313974-13fdc881-98b5-4296-9924-241b1d8e0da0.jpg)
 
 #### b Volume Chart
