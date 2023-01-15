@@ -7,13 +7,13 @@ This section is just for financial reporting and analyzing only. Back-end code i
 ## Table of Contents 
 [I. Executive Summary](#I.-Executive-Summary) 
 
-II. Data Import
+[II. Data Import](#II.-Data-Import)
 
-III. Financial Analysis
+[III. Financial Analysis](#III.-Financial-Analysis)
 
-IV. Portfolio Optimization
+[IV. Portfolio Optimization](IV.-Portfolio-Optimization)
 
-V. Code Running Video
+[V. Code Running Video](#V.-Code-Running-Video)
 
 ## I. Executive Summary
 On the last trading day of 2022 (December 30th), the Wall Street Journal claimed the year of 2022 as **"[one of the worst years for markets in recent history](https://www.wsj.com/articles/global-stocks-markets-dow-update-12-30-2022-11672403899)"**. Not only bonds but also risky assets like stocks and cryptocurrencies faced extreme crashes in price. Especially, the most popular cryptocurrency - **Bitcoin** - finished 2022 with a price of only around 17,000 USD - a significant drop from its all-time high of over 65,000 USD in November 2021. Yet, before the "Crypto Winter" came, Bitcoin and other cryptocurrencies had had a meteoric rise during the pandemic before reaching their all-time high in late 2021. This leads to the fact that even currently suffering from a great discount, a huge number of long-term cryptocurrency holders still outperformed the market. Given this information, the question here is **whether or not an allocation to Bitcoin would improve the overall performance of a traditional portfolio which includes a set of various securities**.  
