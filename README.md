@@ -5,24 +5,26 @@ This project is built and developed on my previous one [Modern Portfolio Optimiz
 This section is just for financial reporting and analyzing only. Back-end code in Python could be found [here](https://github.com/ctran93/The-Role-of-Cryptocurrency-in-Optimizing-a-Mixed-Asset-Portfolio/blob/main/The%20Role%20of%20Cryptocurrency%20in%20Optimizing%20a%20Mixed-Asset%20Portfolio.ipynb).
 
 ## Table of Contents 
-[I Executive Summary](#i-executive-summary) 
+[**I Executive Summary**](#i-executive-summary) 
 
-[II Data Import](#ii-data-import)
+[**II Data Import**](#ii-data-import)
 
 * [1 Stocks and Bitcoin Data](#1-stocks-and-bitcoin-data)
 * [2 Inflation Data](#2-inflation-data)
 
-[III Financial Analysis](#iii-financial-analysis)
+[**III Financial Analysis**](#iii-financial-analysis)
 * [1 Statistical Data](#1-statistical-data)
   + [a Return](#a-return)
   + [b Risk](#b-risk)
-  + [c Correlation](#c-correlation]
+  + [c Correlation](#c-correlation)
 
 * [2 Historical Price and Volume](#2-historical-price-and-volume)
   + [a Price Chart](#a-price-chart)
   + [b Volume Chart](#b-volume-chart)
 
 * [3 Cummulative Return](#3-cummulative-return)
+  + [a Cummulative Return Chart](#a-cummulative-return-chart)
+  + [b Value at the end of 2022](#b-value-at-the-end-of-2022-(start-with-$100-on-January-4,-2016))
 
 [IV Portfolio Optimization](#iv-portfolio-optimization)
 
