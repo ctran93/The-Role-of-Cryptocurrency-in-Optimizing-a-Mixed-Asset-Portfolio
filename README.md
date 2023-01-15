@@ -5,15 +5,15 @@ This project is built and developed on my previous one [Modern Portfolio Optimiz
 This section is just for financial reporting and analyzing only. Back-end code in Python could be found [here](https://github.com/ctran93/The-Role-of-Cryptocurrency-in-Optimizing-a-Mixed-Asset-Portfolio/blob/main/The%20Role%20of%20Cryptocurrency%20in%20Optimizing%20a%20Mixed-Asset%20Portfolio.ipynb).
 
 ## Table of Contents 
-[I. Executive Summary](#I.-Executive-Summary) 
+[I. Executive Summary](#i.-executive-summary) 
 
-[II. Data Import](#II.-Data-Import)
+[II. Data Import](#ii.-data-import)
 
-[III. Financial Analysis](#III.-Financial-Analysis)
+[III. Financial Analysis](#iii.-financial-analysis)
 
-[IV. Portfolio Optimization](IV.-Portfolio-Optimization)
+[IV. Portfolio Optimization](#iv.-portfolio-optimization)
 
-[V. Code Running Video](#V.-Code-Running-Video)
+[V. Code Running Video](#v.-code-running-video)
 
 ## I. Executive Summary
 On the last trading day of 2022 (December 30th), the Wall Street Journal claimed the year of 2022 as **"[one of the worst years for markets in recent history](https://www.wsj.com/articles/global-stocks-markets-dow-update-12-30-2022-11672403899)"**. Not only bonds but also risky assets like stocks and cryptocurrencies faced extreme crashes in price. Especially, the most popular cryptocurrency - **Bitcoin** - finished 2022 with a price of only around 17,000 USD - a significant drop from its all-time high of over 65,000 USD in November 2021. Yet, before the "Crypto Winter" came, Bitcoin and other cryptocurrencies had had a meteoric rise during the pandemic before reaching their all-time high in late 2021. This leads to the fact that even currently suffering from a great discount, a huge number of long-term cryptocurrency holders still outperformed the market. Given this information, the question here is **whether or not an allocation to Bitcoin would improve the overall performance of a traditional portfolio which includes a set of various securities**.  
