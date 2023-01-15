@@ -14,8 +14,8 @@ This section is just for financial reporting and analyzing only. Back-end code i
 
 [III Financial Analysis](#iii-financial-analysis)
 * [1 Statistical Data](#1-statistical-data)
-         + [a Return](#a-return)
-         + [b Risk (Standard Deviation)](#b-risk-(-standard-deviation-))
+  + [a Return](#a-return)
+  + [b Risk](#b-risk)
 
 [IV Portfolio Optimization](#iv-portfolio-optimization)
 
@@ -83,7 +83,7 @@ In order to find the annualied return, we multyply the expected daily return of 
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | **Annualized Return** | 0.198249 | 0.551352 | 0.060746 | 0.112852 |  0.075146 | 0.125939 | 0.148326 | 0.327684 |
 
-#### b Risk (Standard Deviation)
+#### b Risk
 * **Daily Return Standard Deviation** 
 
 | Ticker | AAPL | BTC-USD | F | HAL | KO | OXY | QCOM | TSLA |
