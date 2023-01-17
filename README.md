@@ -9,36 +9,36 @@ This section is just for financial reporting and analyzing only. Back-end code i
 
 [**II Data Import**](#ii-data-import)
 
-    [1 Stocks and Bitcoin Data](#1-stocks-and-bitcoin-data)
+- [1 Stocks and Bitcoin Data](#1-stocks-and-bitcoin-data)
     
-    [2 Inflation Data](#2-inflation-data)
+- [2 Inflation Data](#2-inflation-data)
 
 [**III Financial Analysis**](#iii-financial-analysis)
-  [1 Statistical Data](#1-statistical-data)
+- [1 Statistical Data](#1-statistical-data)
   * [a Return](#a-return)
   * [b Risk](#b-risk)
   * [c Correlation](#c-correlation)
 
-  [2 Historical Price and Volume](#2-historical-price-and-volume)
+- [2 Historical Price and Volume](#2-historical-price-and-volume)
   * [a Price Chart](#a-price-chart)
   * [b Volume Chart](#b-volume-chart)
 
-  [3 Cumulative Return](#3-cumulative-return)
+- [3 Cumulative Return](#3-cumulative-return)
   * [a Cumulative Return Chart](#a-cumulative-return-chart)
   * [b Value at the end of 2022](#b-value-at-the-end-of-2022)
 
-  [4 Correlation to Inflation](#4-correlation-to-inflation)
+- [4 Correlation to Inflation](#4-correlation-to-inflation)
   * [a Correlation to Inflation Table](#a-correlation-to-inflation-table)
   * [b Correlation to Inflation Heatmap](#b-correlation-to-inflation-heatmap)
 
-  [5 Individual Assets' Risk](5-individual-assets'-risk)
+- [5 Individual Assets' Risk](5-individual-assets'-risk)
   * [a Assets' Risk based on Daily Returns](#a-assets'-risk-based-on-daily-returns)
   * [b Assets' Risk based on Sharpe Ratio](#b-assets'-risk-based-on-sharpe-ratio)
 
 [**IV Portfolio Optimization**](#iv-portfolio-optimization)
-  [1 Risk-free Rate](#1-risk-free-rate)
+- [1 Risk-free Rate](#1-risk-free-rate)
 
-  [2 Portfolio Optimization](#2-portfolio-optimization)
+- [2 Portfolio Optimization](#2-portfolio-optimization)
   * [a Monte Carlo Simulation](#a-monte-carlo-simulation)
   * [b Efficient Frontier](#b-efficient-frontier)
   * [c Optimal Portfolios](#c-optimal-portfolios)
