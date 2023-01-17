@@ -9,8 +9,9 @@ This section is just for financial reporting and analyzing only. Back-end code i
 
 [**II Data Import**](#ii-data-import)
 
-* [1 Stocks and Bitcoin Data](#1-stocks-and-bitcoin-data)
-* [2 Inflation Data](#2-inflation-data)
+    [1 Stocks and Bitcoin Data](#1-stocks-and-bitcoin-data)
+    
+    [2 Inflation Data](#2-inflation-data)
 
 [**III Financial Analysis**](#iii-financial-analysis)
   [1 Statistical Data](#1-statistical-data)
