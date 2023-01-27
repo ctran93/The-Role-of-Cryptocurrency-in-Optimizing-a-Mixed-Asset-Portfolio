@@ -230,23 +230,32 @@ The Optimal Portfolio is defined as the portfolio having the highest possible Sh
 
 ##### Optimal Portfolio Allocation and Statistics with Bitcoin
 
-Weights: AAPL: 0.41041
-         BTC-USD: 0.30714
-         KO: 0.10849
-         TSLA: 0.17396
-Expected annual return: 31.6%
-Annual volatility: 27.6%
-Sharpe Ratio: 1.07
+**Weights**: 
+- AAPL: 0.41041
+- BTC-USD: 0.30714
+- KO: 0.10849
+- TSLA: 0.17396
+         
+**Expected annual return**: 31.6%
+
+**Annual volatility**: 27.6%
+
+**Sharpe Ratio**: 1.07
+
 ![With Bitcoin](https://user-images.githubusercontent.com/114312864/212344196-cec100fb-bcfd-42ec-9091-56d6c156266f.jpg)
 
 ##### Optimal Portfolio Allocation and Statistics without Bitcoin
 
-Weights: AAPL: 0.58045
-         KO: 0.18844
-         TSLA: 0.23111
-Expected annual return: 29.7%
-Annual volatility: 28.1%
-Sharpe Ratio: 0.99
+**Weights**: 
+- AAPL: 0.58045
+- KO: 0.18844
+- TSLA: 0.23111
+         
+**Expected annual return**: 29.7%
+
+**Annual volatility**: 28.1%
+
+**Sharpe Ratio**: 0.99
 
 ![Without Bitcoin](https://user-images.githubusercontent.com/114312864/212346132-659e1b37-3dbe-40b1-8891-d3abb15cecfd.jpg)
 
