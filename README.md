@@ -211,7 +211,7 @@ On the other hand, with the lowest Sharpe Ratio of 0.195, F might not a such an 
 ## IV Portfolio Optimization 
 
 ### 1 Risk-free Rate 
-For the sake of simplicity, the annual Risk-free rate is set at 0. However, for other considerations, the risk-free rate might be set differently, for example, equal to the One-year Treasury Bill Rate of the United States Government or other fixed income assets.  
+For the sake of simplicity, the annual Risk-free rate is set at 0. However, for other considerations, the risk-free rate might be set differently, for example, equal to the 10-Year-Bond Rate of the United States Government or other fixed income assets.  
 
 ### 2 Portfolio Optimization
 
