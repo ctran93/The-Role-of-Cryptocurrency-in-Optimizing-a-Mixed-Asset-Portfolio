@@ -66,13 +66,13 @@ Conclusions could be found at the end of each sections, as well as at the end of
 Stocks and Bitcoin Data are directly downloaded from **[Yahoo Finance](https://finance.yahoo.com/)** through Python module **yfinance**.
 
 Data collected include: 
-* **date**: date recorded 
-* **open**: opening price for a given day
+* **date**: date recorded (New York Timezone)
+* **open**: opening price for a given day at 9:30 am Eastern Timezone
 * **high**: highest price recorded for a given day
 * **low**: lowest price recorded for a given day
-* **close**: closing price for a given day
+* **close**: closing price for a given day at 4:00 pm Eastern Timezone
 * **volume**: number of shares traded for a given day
-* **adjusted**: adjusted closing price after accounting for any corporate actions of the company for a given day.
+* **adjusted**: adjusted closing price after accounting for any corporate actions of the company for a given day (eg: adjusted for Dividend Payment).
 
 The data collected consists of daily recorded data for AAPL, F, HAL, KO, OXY, QCOM, and TSLA (no missing data for every trading day from Jan 04, 2016 to December 30, 2022), along with Bitcoin (BTC-USD) data (no missing data for every day (include weekend) from Jan 01, 2016 to December 31, 2022).
 
